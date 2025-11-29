@@ -27,8 +27,6 @@ public class StreamCreation {
 
         System.out.println("--------------------------------------");
 
-
-
         //By using stream() method of Arrays Class
 
         System.out.println("2) by using stream() method of Arrays class.");
@@ -84,13 +82,5 @@ public class StreamCreation {
 
         Stream<Integer> iterate = Stream.iterate(101, n-> n+2).limit(5);
         iterate.forEach(System.out::println);
-
-
-
-
-
-
-
-
     }
 }
